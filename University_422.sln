@@ -2,6 +2,12 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "University_422.Core", "University_422.Core\University_422.Core.csproj", "{EDAC71C9-21AC-428F-B7A5-9C148BD78ED6}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "items", "items", "{C09C5608-5BEB-4E09-9E33-F66C5B71839E}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		create_db.sql = create_db.sql
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
